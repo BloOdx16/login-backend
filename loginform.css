@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.Loginform{
+    width: 320px;
+    height: 380px;
+    background-color: #000000b3;
+    color: rgb(248, 251, 251);
+    position: absolute;
+    left: 40%;
+    top: 220px;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
+    
+
+}
+.Loginform h1{
+    left: 45%;
+    top: 235px;
+    font-size: 28px;
+    font-weight: bold;
+    background-position: center;
+    border-bottom: 6px solid #f6f6f5  ;
+    
+    padding: -10px 85px 30px;
+    padding-left: 85px;
+}
+.bckgrnd img{
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000b3;
+}
+.Loginform .user{
+    padding:0 0 0;
+    color: azure;
+    border:none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #f9f8f7 ;
+    
+    font-size: 18px;
+   
+}
+.Loginform .pass input{
+    color: azure;
+    border:none;
+    outline: none;
+    background: transparent;
+    
+    
+    border-bottom: 1px solid #fafaf9;
+    
+    font-size: 18px;
+}
+
+
+.Loginform .mail{
+    color: azure;
+    border:none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #fafaf9;
+    font-size: 18px;
+}
+.Loginform .button{
+    left: 45%;
+    width: 100%;
+    font-weight: bold;
+    outline: none;
+    overflow: hidden;
+    border: none;
+    background: none;
+    border: 2px solid #fbfaf9;
+    color: azure;
+    padding: 5px;
+    font-size: 18px;
+    margin: 12px 0;
+
+}
+.Loginform .button:hover{
+    cursor: pointer;
+    color: rgb(134, 215, 11);
+}
+.Loginform .forgot{
+    color: white;
+}
+.Loginform .forgot:hover{
+    cursor: pointer;
+    color:purple;
+}.Loginform .checkbox{
+    float: right;
+}    
